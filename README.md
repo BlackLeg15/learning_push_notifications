@@ -1,16 +1,17 @@
-# learning_push_notifications
+# learning_push_notifications (ATTENTION: Read the steps below)
 
-A new Flutter project.
+## Features:
+- Triple 1.2.7+2
+- Modular 5.0.2
+- Push Notifications
+--  w/ onesignal_flutter 3.3.0
+-- & firebase_core 1.17.0
 
-## Getting Started
+## Project specs
+- Dart 2.16.2
+- Flutter 2.10.5
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Steps
+- Integrate Firebase into this app using the Firebase CLI
+- Integrate One Signal to Firebase through One Signal's website
+- Apply your app's One Signal's app ID in `main.dart`
