@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961446269155",
+    "project_id": "learningpushnotification-3c900",
+    "storage_bucket": "learningpushnotification-3c900.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961446269155:android:852ca32b4831a5d1e475d6",
+        "android_client_info": {
+          "package_name": "com.example.learning_push_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961446269155-10ftti8mb7ao9tilqkngdrqprecuflme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArMgsbK4eyocVJoTqFaFyLrzTMmD7V20I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961446269155-10ftti8mb7ao9tilqkngdrqprecuflme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
