@@ -1,7 +1,5 @@
 # learning_push_notifications
 
-## Read the steps below
-
 ## Features:
 - Triple 1.2.7+2
 - Modular 5.0.2
