@@ -1,11 +1,11 @@
-# learning_push_notifications (ATTENTION: Read the steps below)
+# learning_push_notifications
+
+## Read the steps below
 
 ## Features:
 - Triple 1.2.7+2
 - Modular 5.0.2
-- Push Notifications
---  w/ onesignal_flutter 3.3.0
--- & firebase_core 1.17.0
+- Push Notifications w/ onesignal_flutter 3.3.0 & firebase_core 1.17.0
 
 ## Project specs
 - Dart 2.16.2
