@@ -1,13 +1,13 @@
 # learning_push_notifications
 
 ## Features:
-- Triple 1.2.7+2
-- Modular 5.0.2
-- Push Notifications w/ onesignal_flutter 3.3.0 & firebase_core 1.17.0
+- Triple 1.2.7+4 (State Management)
+- Modular 5.0.3 (Dependency Injection)
+- Push Notifications w/ onesignal_flutter 3.5.0 & firebase_core 2.3.0 (Firebase Cloud Messaging)
 
 ## Project specs
-- Dart 2.16.2
-- Flutter 2.10.5
+- Dart 2.18.5
+- Flutter 3.3.9 (stable)
 
 ## Steps
 - Integrate Firebase into this app using the Firebase CLI
