@@ -26,10 +26,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -58,5 +55,15 @@ class DefaultFirebaseOptions {
     messagingSenderId: '961446269155',
     projectId: 'learningpushnotification-3c900',
     storageBucket: 'learningpushnotification-3c900.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyA1uP5Mn7mh7EZF7IZL0e9AIhBZtstq-RQ',
+    appId: '1:961446269155:ios:9522906af21390e4e475d6',
+    messagingSenderId: '961446269155',
+    projectId: 'learningpushnotification-3c900',
+    storageBucket: 'learningpushnotification-3c900.appspot.com',
+    iosClientId: '961446269155-9qkrajmb8ie4hnf2droj3e7oqhhofje5.apps.googleusercontent.com',
+    iosBundleId: 'com.example.learningPushNotifications',
   );
 }
