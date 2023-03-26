@@ -1,25 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_triple/flutter_triple.dart';
 
 import 'home_store.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   final String title;
-  const HomePage({Key? key, this.title = "Home"}) : super(key: key);
+  final HomeStore store;
 
-  @override
-  createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  late final HomeStore store;
-
-  @override
-  void initState() {
-    super.initState();
-    store = Modular.get();
-  }
+  const HomePage({Key? key, this.title = "Home", required this.store}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
