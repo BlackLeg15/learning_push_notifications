@@ -22,24 +22,26 @@ Future<void> initializeFirebase() async {
 }
 
 void initializeOneSignalPushNotifications() {
-  //Remove this method to stop OneSignal Debugging
+  // Remove this method to stop OneSignal Debugging
   OneSignal.shared.setLogLevel(OSLogLevel.verbose, OSLogLevel.none);
 
-  OneSignal.shared.setAppId("dd2400ec-852c-494a-9c47-7e5c489907d9");
+  OneSignal.shared.setAppId("One Signal's App ID here");
 
-// The promptForPushNotificationsWithUserResponse function will show the iOS push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission
+  // The promptForPushNotificationsWithUserResponse function will show the iOS push notification prompt. 
+  // We recommend removing the following code and instead using an In-App Message to prompt for notification permission.
   OneSignal.shared.promptUserForPushNotificationPermission().then((accepted) {
     debugPrint("Accepted permission: $accepted");
   });
 
-  //1 - MOSTRA A NOTIFICAÇÃO NA TELA
+  // Mostra a notificação na tela (ptBR)
+  // Shows the notification on the screen (en)
   setHandlerForNotifications();
 }
 
 void setHandlerForNotifications() {
-  OneSignal.shared.setNotificationWillShowInForegroundHandler(_handler);
+  OneSignal.shared.setNotificationWillShowInForegroundHandler(_pushNotificationsHandler);
 }
 
-void _handler(OSNotificationReceivedEvent event) {
+void _pushNotificationsHandler(OSNotificationReceivedEvent event) {
   event.complete(event.notification);
 }
